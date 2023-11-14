@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>{{ title }}</title>
+  
+  <meta name="color-scheme" content="dark light">
+
+  <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48dGV4dCB5PSIuOWVtIiBmb250LXNpemU9IjkwIj7wn5aVPC90ZXh0Pjwvc3ZnPgo=">
+
+  <style>body{font-family:system-ui,sans-serif;font-size:clamp(1.125rem, 1.0815rem + .2174vw, 1.25rem);line-height:1.6}article{width:min(100% - 2rem,60ch);margin-left:auto;margin-right:auto}article>*+*{margin-top:1em}h1,h2,h3{line-height:1.1}h1{font-size:clamp(2.3325rem, 2.0823rem + 1.2511vw, 3.0519rem)}h2{font-size:clamp(1.9438rem, 1.7707rem + .8652vw, 2.4413rem)}h3{font-size:clamp(1.62rem, 1.5041rem + .5793vw, 1.9531rem)}blockquote{font-size:clamp(1.35rem, 1.2761rem + .3696vw, 1.5625rem)}small{font-size:clamp(.9375rem, .9158rem + .1087vw, 1rem)}</style>
+  
+  <link rel="canonical" href="{{ url |> url(true) }}">
+  
+  <meta name="description" content="{{ description }}">
+  
+  <meta name="twitter:card" content="summary">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="{{ url |> url(true) }}">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:description" content="{{ description }}">
+</head>
+<body><main><article>{{ content }}</article></main></body>
+</html>
